@@ -29,7 +29,7 @@ O objetivo foi construir esta página de receita e deixá-la o mais próxima pos
 ### Links
 
 - URL da Solução: [https://github.com/Manuella-Maia/recipe-page-challenge](https://github.com/Manuella-Maia/recipe-page-challenge)
-- URL do Site ao Vivo: [https://manuellamaia.github.io/SEU-REPOSITORIO/](https://manuellamaia.github.io/SEU-REPOSITORIO/)
+- URL do Site ao Vivo: [https://manuella-maia.github.io/recipe-page-challenge/](https://manuella-maia.github.io/recipe-page-challenge/)
 
 ## Meu processo
 
