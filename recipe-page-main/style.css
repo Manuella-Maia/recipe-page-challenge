@@ -1,0 +1,126 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root{
+      --white: hsl(0, 0%, 100%);
+      --stone-100: hsl(30, 54%, 90%);
+      --stone-150: hsl(30, 18%, 87%);
+      --stone-600: hsl(30, 10%, 34%);
+      --stone-900: hsl(24, 5%, 18%);
+      --brown-800: hsl(14, 45%, 36%);
+      --rose-800: hsl(332, 51%, 32%);
+      --rose-50: hsl(330, 100%, 98%);
+    }
+
+    body{
+      font-family: "Outfit", sans-serif;
+      font-size: 16px;
+      font-weight: 400; /*tamanho da fonte*/
+      background-color: var(--stone-100);
+
+      /*centralização*/
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1, h2, h3 {
+      font-family:"Young Serif",serif ;
+      font-weight: 400;
+    }
+
+    h1, h2{
+      color: var(--brown-800);
+    }
+
+    h3{
+      color: var(--rose-800);
+    }
+
+    h2{
+      margin-bottom: 40px;
+    }
+
+    p{
+      color: var(--stone-600);
+      margin-bottom: 20px;
+    }
+
+    ul, ol{
+      color: var(--stone-900);
+    }
+
+    li{
+      padding-left: 15px;
+      margin-bottom: 8px;
+    }
+
+    li::marker{
+      color: var(--brown-800)
+    }
+
+    .preparation-time{
+      background-color: var(--rose-50);
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .preparation-time li::marker{
+      color: var(--rose-800)
+    }
+
+    strong{
+      font-weight: 700;
+    }
+
+    main{
+      background-color: var(--white);
+      max-width: 700px;
+      border-radius: 20px;
+      padding: 40px;
+      margin: 40px 0;
+    }
+
+    table{
+      width: 100%;
+      border-collapse: collapse ;
+    }
+
+    table strong{
+      color: var(--brown-800)
+    }
+
+    td{
+      padding: 10px 20px; /* espaço interno */
+      border-bottom: 1px solid var(--stone-150); /* lsita fina dividindo*/
+    }
+
+    tr:last-child td{ /* para a ultima linha não ter borda abaixo*/
+      border-bottom: none;;
+    }
+
+    img{
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 700px){
+      
+      body{
+        align-items: flex-start;
+      }
+
+      main{
+        margin: 0;
+        border-radius: 0;
+        padding: 24px;
+      }
+
+      img{
+        border-radius: 0;
+        margin: -24px -24px 24px -24px ;
+        width: calc(100% + 48px);
+        max-width: none;
+      }
+    }
